@@ -8,4 +8,4 @@ jobs:
       - name: List files in the repository
         run: printenv
       - name: Operating System it is running 
-        run: ${{ RUNNER_OS }}
+        run: ${{ RUNNER.OS }}
