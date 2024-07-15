@@ -1,6 +1,10 @@
 name: GitHub Actions Demo
 run-name: Github Action env demo🚀
 on: [push]
+env:
+  Name:"Adarsh"
+  Class:"Devops"
+  
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
@@ -11,3 +15,9 @@ jobs:
         run: echo " The Operation system the job is running  ${{ runner.os }}"
       - name: Branch on which the pipeline is running
         run: echo " The branch on which the job is running ${{ github.ref }}"
+      - name: Print the variables defined
+        run: echo $Name
+      - name: Print the Class defined
+        run: echo $Class
+      
+        
