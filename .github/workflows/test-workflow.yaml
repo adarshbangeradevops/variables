@@ -8,4 +8,4 @@ jobs:
       - name: List files in the repository
         run: printenv
       - name: Operating System it is running 
-        run: echo " the event that triggerred this workflow ${{ github.event_name }}"
+        run: echo " the event that triggerred this workflow ${{ runner.os }}"
