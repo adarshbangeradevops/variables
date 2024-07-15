@@ -2,7 +2,7 @@ name: Github Actions Custom Variables
 run-name: Github Action Custom Variables
 on: [push]
 env:
-  API_KEY: "adarsh123445"
+  API_KEY: "adarsh12h3445"
 jobs:
   Run-Python-Script:
     runs_on: ubuntu-latest
