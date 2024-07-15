@@ -2,8 +2,8 @@ name: GitHub Actions Demo
 run-name: Github Action env demo🚀
 on: [push]
 env:
-  Name:"Adarsh"
-  Class:"Devops"
+  NAME: "Adarsh"
+  CLASS: "Devops"
   
 jobs:
   Explore-GitHub-Actions:
@@ -16,8 +16,8 @@ jobs:
       - name: Branch on which the pipeline is running
         run: echo " The branch on which the job is running ${{ github.ref }}"
       - name: Print the variables defined
-        run: echo $Name
+        run: echo $NAME
       - name: Print the Class defined
-        run: echo $Class
+        run: echo $CLASS
       
         
