@@ -5,7 +5,6 @@ env:
   API_KEY: "adarsh12h3445"
 jobs:
   Run-Python-Script:
-    runs_on: ubuntu-latest
     steps:
     -  name: Check out repository code
        uses: actions/checkout@v4.1.7
