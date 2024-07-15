@@ -7,4 +7,3 @@ jobs:
     steps:
       - name: List files in the repository
         run: printenv
-        run: echo "🍏 This job's status is ${{ job.status }}."
